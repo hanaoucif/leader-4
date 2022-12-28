@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+nav{
+    position: fixed ;
+  
+    width: 100%;
+   
+}
+body{
+    overflow-x: hidden;
+}
+.home{
+    margin-bottom: -250px;
+}
+i:hover{
+    color: orange;
+}
+.text {
+    margin-top: -550px;
+    color: white;
+    text-align: center;
+    margin-right: 800px;
+   
+}
+.text h1{
+    font-size: 3.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.text button{
+    background-color: orange;
+    border-color: transparent;
+border-radius: 20%;
+margin-top: 30px;
+padding:10px 15px;
+}
+ button:hover {
+
+    background-color: red;
+}
+.service{
+  
+    background-color:#333;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+padding-bottom: 50px;
+}
+
+.grid-section{
+    display:flex; 
+
+    justify-content:space-around;
+margin-top: 40px;
+
+}
+.first-service{
+    background-color: rgb(241, 3, 3);
+height: 350px;
+width:350px;
+padding-left:50px;
+}
+ p{
+font-size: large;
+
+}
+.first-service:hover{
+    background-color: orange;
+}
+.second-service{
+    background-color: rgb(49, 45, 45);
+    height: 350px;
+    width:350px;
+    padding-left:50px;
+}
+.second-service h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.second-service:hover{
+    background-color: rgba(255, 166, 0, 0.843);
+}
+.third-service i{
+    font-size: 4rem;
+    color: orange;
+    padding: 100px 100px 0 100px;
+
+}
+.third-service{
+    background-color: rgb(241, 3, 3);
+    height: 350px;
+    width:350px;
+    padding-left:50px;
+}
+.third-service h3{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.third-service:hover{
+    background-color: rgba(255, 166, 0, 0.615);
+}
+.four-service i{
+    font-size: 4rem;
+    color: orange;
+    padding: 100px 100px 0 100px;
+
+}
+.four-service{
+    background-color:  rgb(49, 45, 45);
+    height: 350px;
+    width:350px;
+    padding-left:50px;
+}
+.four-service h3{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.four-service:hover{
+    background-color: rgba(255, 166, 0, 0.548);
+}
+#programe{
+    background-color: rgba(0, 0, 0, 0.626);
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    padding-top: 30px;
+padding-bottom: 50px;
+
+
+}
+.grid-programme{
+    margin-top: 30px;
+    margin-right: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    
+}
+#teacher{
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+padding-bottom: 50px;
+}
+.team{
+    margin-top: 30px;
+    display: flex;
+   justify-content: space-around;
+}
+.team h2,p{
+    padding-top: 20px;
+    color: white;
+}
+.team h2:hover{
+    color: orange;
+}
+#price{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #1b2126ea;
+    padding-top: 30px;
+}
+.price-grid{
+    display: flex;
+  
+    justify-content: space-around;
+   
+   
+}
+#DA{
+    background-color:rgba(255, 166, 0, 0.784);
+    color: white;
+width:450px;
+padding: 60px;
+height: 630px;
+
+}
+#DA span{
+    color: black;
+}
+#DA button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-color: transparent;
+}
+#button{
+    background-color: black;
+    text-align: center;
+
+}
+#button button {
+    padding: 10px;
+    background-color: orange;
+    margin:40px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+}
